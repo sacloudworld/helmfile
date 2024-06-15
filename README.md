@@ -24,3 +24,9 @@ helm install user-app-release --debug  --dry-run user-app
 
 
 helm upgrade user-app-release user-app
+
+
+
+helm repo index --url https://github.com/sacloudworld/helmfile/master/ .    (master is  branch)
+
+https://raw.githubusercontent.com/sacloudworld/helmfile/master/
