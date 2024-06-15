@@ -27,6 +27,12 @@ helm upgrade user-app-release user-app
 
 
 
-helm repo index --url https://github.com/sacloudworld/helmfile/master/ .    (master is  branch)
+helm repo index --url https://raw.githubusercontent.com/sacloudworld/helmfile/master/ .    (master is  branch)
 
-https://raw.githubusercontent.com/sacloudworld/helmfile/master/
+helm repo list
+
+
+https://raw.githubusercontent.com/username/repository/main/path/to/file
+
+
+curl -O https://raw.githubusercontent.com/sacloudworld/helmfile/master/user-app-0.1.0.tgz
